@@ -1,0 +1,49 @@
+/*Formatting for the background image being used in the header*/
+.header {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/272/64/944/basketball-denver-nuggets-logo-nba-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+/*formatting for the external links included in the header*/
+.subheader{
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+/*formatting for the text display for each link*/
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*formatting how each link will appear when the user hovers the mouse over it*/
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+/*formatting how each link will appear after it has already been clicked on*/
+a:visited {
+    color: maroon
+}
+/*formatting to center the internal links under the header*/
+.center{
+    text-align: center;
+}
+/*formatting for The Lord of the Rings picture that is being used*/
+.lotr{
+    padding-top: 25px;
+}
+/*formatting for each numbered main idea in the ordered list*/
+.listheader{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(7, 7, 47);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*formatting for each unordered subentry nested within the ordered list*/
+.listsubentry{
+    font-weight:normal;
+}
